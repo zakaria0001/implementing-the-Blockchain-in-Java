@@ -1,0 +1,24 @@
+# implementing-the-Blockchain-in-Java :
+
+Blockchain is the modern technology that stores data in the form of block data connected through cryptography and cryptocurrencies such as Bitcoin. 
+It was introduced by Stuart Haber and W. Scott Tornetta in 1991. It is a linked list where the nodes are the blocks in the Blockchain, and the references are hashes of the previous block in the chain. 
+References are cryptographic hashes when dealing with link lists. The references are just basically objects. 
+So every single node will store another node variable, and it will be the reference to the next node. In this case, the references are cryptographic hashes.
+
+# Output :
+
+Hash is 03ee347baabf340ee4633701fbeafa994793769fc98631e4153158511f1ac477
+1-03ee347baabf340ee4633701fbeafa994793769fc98631e4153158511f1ac477-06038801b802c99971af49636de740749c38c1acf2c62c5497397972fb3d1d6e-Transaction2-has just mined
+Hash is 06038801b802c99971af49636de740749c38c1acf2c62c5497397972fb3d1d6e
+2-06038801b802c99971af49636de740749c38c1acf2c62c5497397972fb3d1d6e-05960bda319ba1edf368fcd127e04c00869e1ac87925a457b18917524fdf31be-Transaction3-has just mined
+Hash is 05960bda319ba1edf368fcd127e04c00869e1ac87925a457b18917524fdf31be
+3-05960bda319ba1edf368fcd127e04c00869e1ac87925a457b18917524fdf31be-0e37c0f4a1d792fa95cf470e1ecc493b9ef88eff45104821d1411faeed68066d-Transaction4-has just mined
+Hash is 0e37c0f4a1d792fa95cf470e1ecc493b9ef88eff45104821d1411faeed68066d
+
+BlockChain:
+0-0000000000000000000000000000000000000000000000000000000000000000-03ee347baabf340ee4633701fbeafa994793769fc98631e4153158511f1ac477-Transaction1-
+1-03ee347baabf340ee4633701fbeafa994793769fc98631e4153158511f1ac477-06038801b802c99971af49636de740749c38c1acf2c62c5497397972fb3d1d6e-Transaction2-
+2-06038801b802c99971af49636de740749c38c1acf2c62c5497397972fb3d1d6e-05960bda319ba1edf368fcd127e04c00869e1ac87925a457b18917524fdf31be-Transaction3-
+3-05960bda319ba1edf368fcd127e04c00869e1ac87925a457b18917524fdf31be-0e37c0f4a1d792fa95cf470e1ecc493b9ef88eff45104821d1411faeed68066d-Transaction4-
+
+Reward : 40.0
